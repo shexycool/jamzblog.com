@@ -7,6 +7,17 @@ executors:
     docker:
       - image: cimg/base:stable
         auth:
+        jobs:
+  example-job:
+    docker:
+      # replace with your preferred image
+      - image: cimg/base:stable
+    steps:
+      - codecov/upload
+workflows:
+  example-workflow:
+    jobs:
+      - example-job 
           # ensure you have first added these secrets
           # visit app.circleci.com/settings/project/github/shexycool/jamzblog.com/environment-variables
           username: $DOCKER_HUB_USER
