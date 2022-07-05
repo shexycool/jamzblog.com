@@ -3,7 +3,7 @@ site
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html b:css='true' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.3' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-<head>
+<head>https://console.cloud.google.com/?project=shex-1626456134553
   <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4918043230119168'/>
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title><data:view.title.escaped/></title>
