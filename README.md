@@ -283,7 +283,7 @@ site
         */
 
         /*!************************************************
-        * Blogger Template Style
+        * github Template Style
         * Name: Contempo
         **************************************************/
         body{
