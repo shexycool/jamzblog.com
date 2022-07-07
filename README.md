@@ -4,7 +4,7 @@ site
 <!DOCTYPE html>
 <html b:css='true' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.3.3' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8179423483796359"
-     crossorigin="anonymous"></script>https://console.cloud.google.com/?project=shex-1626456134553
+     crossorigin="anonymous"></script>https://console.cloud.google.com/?project=shex-1626456134553><link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
   <script async='async' crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4918043230119168'/>
     <meta content='width=device-width, initial-scale=1' name='viewport'/>
     <title><data:view.title.escaped/></title>
@@ -3004,7 +3004,7 @@ site
                                         <b:include data='{ iconClass: &quot;search-expand-icon&quot; }' name='searchIcon'/>
                                     </div>
                                 </button>
-                                <b:section id='search_top' name='Search (Top)' showaddelement='false'>
+                                <b:section id='search_top' name='Search (Top)' showaddelement='true'>
                                   <b:widget id='BlogSearch1' locked='true' title='Search This Blog' type='BlogSearch' visible='true'>
                                     <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -3087,8 +3087,8 @@ site
                             </b:section>
                             <b:comment>Nav primarily intended for sections that consist of major navigation blocks.</b:comment>
                             <nav role='navigation'>
-                                <b:section class='clearboth' id='page_list_top' name='Page List (Top)' showaddelement='false'>
-                                  <b:widget id='PageList1' locked='true' title='' type='PageList' visible='false'>
+                                <b:section class='clearboth' id='page_list_top' name='Page List (Top)' showaddelement='true'>
+                                  <b:widget id='PageList1' locked='true' title='' type='PageList' visible='true'>
                                     <b:widget-settings>
                                       <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"http://shekwoyemilo.blogspot.com/","position":0,"title":"Home"}}]]></b:widget-setting>
                                       <b:widget-setting name='homeTitle'>Home</b:widget-setting>
@@ -3145,7 +3145,7 @@ site
                     </div>
                 </header>
                 <div>
-                    <b:section ads='true' class='vertical-ad-container' id='ads' name='Ads' showaddelement='false'>
+                    <b:section ads='true' class='vertical-ad-container' id='ads' name='Ads' showaddelement='true'>
                       <b:widget id='AdSense1' locked='true' title='' type='AdSense' visible='true'>
                         <b:widget-settings>
                           <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
@@ -3172,7 +3172,7 @@ site
                 </b:with>
             </b:includable>
                       </b:widget>
-                      <b:widget id='AdSense2' locked='true' title='' type='AdSense' visible='false'>
+                      <b:widget id='AdSense2' locked='true' title='' type='AdSense' visible='true'>
                         <b:widget-settings>
                           <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                           <b:widget-setting name='style.textcolor'>#2196f3</b:widget-setting>
@@ -3219,7 +3219,7 @@ site
                                 </div>
                             </div>
                         </b:if>
-                        <b:section class='main' id='page_body' name='Page Body' showaddelement='false'>
+                        <b:section class='main' id='page_body' name='Page Body' showaddelement='true'>
                           <b:widget id='FeaturedPost1' locked='true' title='' type='FeaturedPost' visible='true'>
                             <b:widget-settings>
                               <b:widget-setting name='showSnippet'>true</b:widget-setting>
@@ -3305,28 +3305,28 @@ site
                           </b:widget>
                           <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' visible='true'>
                             <b:widget-settings>
-                              <b:widget-setting name='showDateHeader'>false</b:widget-setting>
+                              <b:widget-setting name='showDateHeader'>true</b:widget-setting>
                               <b:widget-setting name='style.textcolor'>#ffffff</b:widget-setting>
                               <b:widget-setting name='showShareButtons'>true</b:widget-setting>
                               <b:widget-setting name='showCommentLink'>true</b:widget-setting>
                               <b:widget-setting name='style.urlcolor'>#ffffff</b:widget-setting>
-                              <b:widget-setting name='showAuthor'>false</b:widget-setting>
+                              <b:widget-setting name='showAuthor'>true</b:widget-setting>
                               <b:widget-setting name='style.linkcolor'>#ffffff</b:widget-setting>
                               <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                               <b:widget-setting name='timestampLabel'/>
                               <b:widget-setting name='reactionsLabel'/>
-                              <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
+                              <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
                               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
                               <b:widget-setting name='showLabels'>true</b:widget-setting>
                               <b:widget-setting name='showLocation'>true</b:widget-setting>
                               <b:widget-setting name='postLabelsLabel'/>
                               <b:widget-setting name='showTimestamp'>true</b:widget-setting>
                               <b:widget-setting name='postsPerAd'>1</b:widget-setting>
-                              <b:widget-setting name='showBacklinks'>false</b:widget-setting>
+                              <b:widget-setting name='showBacklinks'>true</b:widget-setting>
                               <b:widget-setting name='style.bordercolor'>#ffffff</b:widget-setting>
-                              <b:widget-setting name='showInlineAds'>false</b:widget-setting>
-                              <b:widget-setting name='showReactions'>false</b:widget-setting>
+                              <b:widget-setting name='showInlineAds'>true</b:widget-setting>
+                              <b:widget-setting name='showReactions'>true</b:widget-setting>
                             </b:widget-settings>
                             <b:includable id='main'>
                 <b:include name='noContentPlaceholder'/>
@@ -3349,7 +3349,7 @@ site
   <div class='author-name'>
     <a class='g-profile' expr:href='data:post.author.profileUrl' rel='author' title='author profile'>
       <span>
-        <data:post.author.name/>
+        <data:post.author.name/><christopher>
       </span>
     </a>
   </div>
@@ -3993,8 +3993,8 @@ site
           <b:widget-setting name='monthPattern'>MMMM yyyy</b:widget-setting>
           <b:widget-setting name='dayPattern'>MMM dd</b:widget-setting>
           <b:widget-setting name='weekPattern'>MM/dd</b:widget-setting>
-          <b:widget-setting name='chronological'>false</b:widget-setting>
-          <b:widget-setting name='showPosts'>false</b:widget-setting>
+          <b:widget-setting name='chronological'>true</b:widget-setting>
+          <b:widget-setting name='showPosts'>true</b:widget-setting>
           <b:widget-setting name='frequency'>MONTHLY</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main' var='this'>
@@ -4092,5 +4092,6 @@ site
 </aside>
 
 <b:template-script async='true' name='indie' version='1.0.0'/>
-</body>
+     <body><script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+</body><script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </html>
